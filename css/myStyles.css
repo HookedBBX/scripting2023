@@ -1,0 +1,104 @@
+/*fonts here*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Onest:wght@200&family=Roboto&display=swap');
+
+
+#masthead {
+    background-color: #00bc9b;
+    font-size: 15px;
+    border-radius: 50%;
+    align-items: center;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+}
+
+
+
+body {
+	
+	font-family: 'open-sans-bold', sans-serif;
+    color: #fff;
+	font-size: 12px;
+	/* text-align: center; */
+}
+
+h1 {
+
+    font-family: 'Onest', sans-serif;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+/* Navigation Settings */
+nav {
+	position:static;
+	bottom: 0;
+	width: 100%;
+	height: 70px;
+	background: #fff;
+}
+
+nav li {
+	display: inline-block;
+	padding: 24px 30px;
+}
+
+nav li a {
+	color: #757575;
+	text-transform: uppercase;
+}
+
+
+
+/* Screens Settings */
+#screen1 {
+	background: #753d59;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+#screen2 {
+	padding-top: 100px;
+    background: #43b29d;
+    text-align: center;
+}
+
+
+#screen3 {
+	background: #49372d;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 25px;
+}
+
+@media only screen and (max-width: 520px) {
+
+	nav li {
+		padding: 24px 4px;
+	}
+
+	nav li a {
+		font-size: 14px;
+	}
+
+}
+
+#portfolio1 {
+
+    color: rgb(0, 0, 0);
+}
+
+
+#footerpo {
+
+    color: rgb(255, 255, 255);
+    background:rgb(0, 0, 0);
+
+
+    
+}
