@@ -1,0 +1,126 @@
+/*Put all fonts here!*/
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto&display=swap');
+
+
+/*These are the default styles*/
+body {
+    background-color: #8f7736;
+    /*change the font*/
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+h1,
+h2 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+
+/**************************header***********************/
+header {
+    background-image: linear-gradient(to bottom, #d16ba5, #ac68a2, #896497, #6a5e87, #535571, #515d79, #4f667f, #4f6e84, #518fa8, #4eb2c8, #4ed6e0, #5ffbf1);
+    /*center but the text*/
+    text-align: center;
+    /*add padding - 30 pixels*/
+    padding: 30px;
+    
+}
+
+/*only one thing on the page that is different - use an ID*/
+/*hashtag # - Octothorpe */
+#diffI {
+    color: red;
+}
+
+
+
+/*************************navigation bar****************/
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #460707;
+    /*fixed top*/
+    position: unset;
+    top: 0;
+    width: 100%;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+/*hover state for the nav buttons*/
+/*pseudo-class for hovering*/
+nav a:hover {
+    background-color: rgb(152, 31, 31);
+}
+
+.sticky {
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+/**************************section***********************/
+section {
+    background-color: #4A4D51;
+    /*no pixel amount - use percent or vw - viewport width*/
+    width: 60vw;
+    /*center the sections but top & bottom pacing is none*/
+    /*top, bottom - left and right*/
+    margin: auto;
+    /*adds space inside the sections*/
+    padding: 20px;
+    overflow: hidden;
+}
+
+/*CLASS - reusable bit of css that you can put on elements*/
+/*start in css with a dot (period)*/
+.alternate {
+    background-color: #474041;
+}
+
+/**********************footerstyle************************/
+/*change the background colour
+Center the text
+add some nice padding*/
+
+section img {
+    float: left;
+    margin-right: 25px;
+}
+
+footer {
+top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(95, 41, 41);
+  color: white;
+  text-align: center;
+}
+
+/*
+
+/******************Styled Links*****************/
+a{
+    color: rgb(114, 129, 129);
+}
+
+a:visited{
+    color: orange;
+}
+
+a:hover{
+    color: yellow;
+}
